@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px 0px;
+    font-style: normal;
+  }
+  
+  @media (max-width: 300px) {
+      header {
+        width: 100%;
+        height: 50px;
+      }
+
+      #boxes {
+          width: 100%;
+          flex-direction:column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+      }
+  }
+  
+
+img {
+  width: 50%;
+  max-width: 350px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    margin: 15px;
+    border: 10px;
+}
+
+#nav-bar {
+    margin: 15px;
+    border: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#subtitle {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin: 15px;
+    border: 15px;
+    font-size: 16px;
+    background-color: white;
+    padding: 200px 0px 70px 0px;
+}
+
+form {
+    border: 15px;
+    margin: 15px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    border: 10px;
+    margin: 10px;
+}
+
+#email {
+    border-width: 2px;
+    border-style: inset;
+    border-color: black;
+}
+
+#submit {
+    background-color: yellow;
+    font-size: 24px;
+}
+
+li {
+    margin: 20px;
+    border: 10px;
+}
+
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#select {
+    background-color: yellow;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px;
+    border: 25px;
+}
+
+.box {
+    border-width: 2px;
+    border-style: inset;
+    border-color: black;
+    text-align: center;
+}
+
+.box-title {
+    margin: 10px;
+    border: 10px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    right:0;
+    width: 100%;
+    background-color: lightgrey;
+    text-align:  right;
+}
+
+#footer-bar {
+    margin: 15px;
+    border: 15px;
+    align-items: right;
+}
+
+#rights {
+    margin: 15px;
+    border: 15px;
+}
